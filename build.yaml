@@ -1,0 +1,9 @@
+targets:
+  $default:
+    builders:
+      reflectable:
+        generate_for:
+          - lib/main.dart
+          - test/main_test.dart
+        options:
+          formatted: true
